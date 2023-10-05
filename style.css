@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800;900&family=Poppins&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.primary-color {
+    color: #727475;
+}
+
+.btn.primary-color-bg {
+    background-color: #78635a;
+    color: white;
+    padding: 10px 15px;
+}
+
+.btn.primary-color-bg:hover {
+    /* background-color: #78635a; */
+    color: white;
+    /* padding: 10px 15px; */
+}
+
+a.nav-link {
+    color: #727475;
+}
+
+
+.img-parr {
+    min-height: 100px;
+    z-index: 10;
+}
+
+.top-header {
+    z-index: 200;
+}
+
+.img-parralex {
+    height: 10px !important;
+}
+
+.parallax {
+    background-image: url("image1.jpg");
+    /* height: auto; */
+    /* background-image: url("img_parallax.jpg"); */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-section {
+    height: 80px;
+}
+
+.link-nav,
+.nav-link {
+    color: black;
+}
+
+.hero-banner {
+    height: 90vh;
+    background-image: url("/assets/images/image1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn.btn-color {
+    background-color: #78635a;
+    border-radius: 25px;
+    color: white;
+}
+
+
+.parallax1 {
+    background-image: url("image1.jpg");
+    height: auto;
+    /* background-image: url("img_parallax.jpg"); */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-img-hero {
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+section {
+    margin: 80px 0px;
+    min-height: 100vh;
+}
+
+.column-best {
+    height: auto;
+}
+
+.right-best {
+    height: 100%;
+}
+
+.column-cards {
+    height: auto;
+    padding: 0 20px;
+    background-image: url(assets/images/bed1.jpg);
+    /* background-image:; */
+    max-width: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    object-fit: cover !important;
+}
+
+.column-cards2 {
+    height: auto;
+    padding: 0 20px;
+    background-image: url(http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/uploads/sites/7/2017/09/room4-720x720.jpg);
+    /* background-image:; */
+    max-width: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    object-fit: cover !important;
+}
+
+.column-cards3 {
+    height: auto;
+    padding: 0 20px;
+    background-image: url(assets/images/bed3.jpg);
+    /* background-image:; */
+    max-width: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    object-fit: cover !important;
+}
+
+.column-cards4 {
+    height: auto;
+    padding: 0 20px;
+    background-image: url(assets/images/bed4.jpg);
+    /* background-image:; */
+    max-width: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    object-fit: cover !important;
+}
+
+
+.card-img-top {
+    height: auto !important;
+    width: 10%;
+}
+
+.room-hero {
+    background-image: url(/assets/images/rooms-hero.jpg);
+    height: 200px;
+}
